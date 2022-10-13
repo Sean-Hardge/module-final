@@ -61,7 +61,7 @@ def authorizeUser():
 
 def viewAccountMenu():
     print('\n-- Account Menu --')
-    print('\n 1: Your wishlist\n 2: Add to your wishlist\n 3: Back to main menu')
+    print('\n 1: Your wishlist\n 2:  Add to your wishlist\n 3: Back to main menu')
     try:
         accountChoiceInput = int(input('Please select an option.'))
         return accountChoiceInput
